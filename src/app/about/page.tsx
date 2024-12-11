@@ -82,7 +82,7 @@ export default function AboutPage() {
   const scale = useTransform(scrollY, [0, 500], [1.25, 1]);
   const opacity = useTransform(scrollY, [0, 500], [0.9, 0.6]);
   const handleOpenCV = () => {
-    window.open("/$Malika_Cisse_PM.pdf", "_blank");
+    window.open("/Malika_Cisse_PM.pdf", "_blank");
   };
 
   return (
