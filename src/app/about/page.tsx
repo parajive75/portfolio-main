@@ -82,7 +82,7 @@ export default function AboutPage() {
   const scale = useTransform(scrollY, [0, 500], [1.25, 1]);
   const opacity = useTransform(scrollY, [0, 500], [0.9, 0.6]);
   const handleOpenCV = () => {
-    window.open("/CV_Malika_Cisse.pdf", "_blank");
+    window.open("/$Malika_Cisse_PM.pdf", "_blank");
   };
 
   return (
@@ -97,8 +97,8 @@ export default function AboutPage() {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="mb-10 max-w-4xl lg:ml-40"
           >
-            <div className="text-xl lg:text-4xl text-balance font-semibold">
-              Every project starts with a story – {" "}
+            <div className="text-balance text-xl font-semibold lg:text-4xl">
+              Every project starts with a story –{" "}
               <span className="text-gray-500">
                 yours, mine, or someone else's – and that's where the magic
                 begins
